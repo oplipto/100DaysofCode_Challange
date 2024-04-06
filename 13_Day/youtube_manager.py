@@ -19,9 +19,7 @@ def list_all_videos(videos):
     print("\n")
     print("*" * 75)
     for index, video in enumerate(videos, start=1):
-        title = video.get('title', 'Unknown Title')  # Get title or provide a default value
-    duration = video.get('Duration', 'Unknown Duration')  # Get duration or provide a default value
-    print(f"{index}. {title}, Duration: {duration}")
+     print(f"{index}. {video['name']}, Duration: {video['time']}")
 
     print("\n")
     print("*" * 75)
@@ -57,7 +55,7 @@ def delete_video(videos):
 def main():
     videos = load_data()
     while True:
-        print("\n Youtube Manager | Choose an option:")
+        print("\nYoutube Manager | Choose an option:")
         print("1. Show All Videos")
         print("2. Add Video")
         print("3. Update Video")
