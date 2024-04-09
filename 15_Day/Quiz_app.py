@@ -1,3 +1,5 @@
+
+
 def display_question(question, options):
     print(question)
     for i in range(len(options)):
