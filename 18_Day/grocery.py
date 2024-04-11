@@ -173,7 +173,7 @@
  
 def welcome():
 
-    print("Welcome to the Food Ordering System!")
+    print("\nWelcome to the Food Ordering System!")
     print("Here are the items available for order:")
     print("1. 🍔 Cheeseburger")
     print("2. 🍟 Fries")
