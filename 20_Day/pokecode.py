@@ -86,6 +86,6 @@ area = 4 * pi * r ** 2
 
 round_area = round(area, 2)
 
-print(f'The area of {random_planet} is {round_area} km²')
+print(f'\nThe area of {random_planet} is {round_area} km²')
 
 
